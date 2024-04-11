@@ -1,0 +1,140 @@
+<!-- HOME -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+</head>
+<body>
+    <header>
+
+        <div class="header-text">
+            F0NTZ
+        </div>
+        
+        <div id="buttons">
+
+            <button id="categoriaButton" onclick="changeFilter('categoria')">Categoria</button>
+            <button id="luogoButton" onclick="changeFilter('luogo')">Luogo</button>
+            <button id="utilizzoButton" onclick="changeFilter('utilizzo')">Utilizzo</button>
+            <button onclick="window.location.href='./metadati/index.html'">METADATI</button>
+
+        </div>
+    </header>
+    <main></main>
+    <script>
+
+        let categoria = 'categoria';
+
+        function changeFilter(newFilter) {
+            categoria = newFilter;
+
+            run();
+
+            //classe disattiva
+            document.querySelectorAll('#buttons button').forEach(button => {
+                button.classList.remove('active');
+            });
+
+            //classe attiva
+            document.getElementById(newFilter + 'Button').classList.add('active');
+        }
+
+
+        async function run() {
+            let data;
+
+            await fetch("./assets/data/100_font.json")
+                .then(function(r) { return r.json() })
+                .then(json => {
+                    data = json;
+            });
+
+
+            //FILTRI
+            if (categoria === 'categoria') {
+                data.sort(function(elementoA, elementoB) {
+                    if (elementoA.categoria < elementoB.categoria) return -1;
+                    if (elementoA.categoria > elementoB.categoria) return 1;
+                    if (elementoA.sottocategoria < elementoB.sottocategoria) return -1;
+                    if (elementoA.sottocategoria > elementoB.sottocategoria) return 1;
+                    return 0;
+                });
+            } 
+
+
+            else {
+                data.sort(function(elementoA, elementoB) {
+                    if (elementoA.font < elementoB.font) return -1;
+                    if (elementoA.font > elementoB.font) return 1;
+                    return 0;
+                });
+            }
+
+
+             //CATEGORIE
+            let categorie = [];
+            for (let i = 0; i < data.length; i++) {
+                if (!categorie.includes(data[i][categoria])) {
+                    categorie.push(data[i][categoria]);
+                }
+            }
+
+            console.log(categorie);
+
+            let cats = "";
+            categorie.sort();
+            for (let i = 0; i < categorie.length; i++) {
+                cats += "<h1>" + categorie[i] + "</h1>";
+                cats += "<div class='categoria' id='" + categorie[i] + "'></div>";
+            }
+
+            document.querySelector('main').innerHTML = cats;
+            
+
+            //METADATI
+            for (let i = 0; i < data.length; i++) {
+                let container = document.getElementById(data[i][categoria]);
+                let output = "";
+                output += "<div class='info'>";
+                output += "<img src='./assets/imgs/" + data[i].file + ".png'>";
+                output += "<div class='metadata'>";
+                output += "<span>" + data[i].font + "</span>";
+                output += "<span>" + data[i].categoria + "</span>";
+                output += "<span>" + data[i].sottocategoria + "</span>";
+                output += "<span>" + data[i].autore + "</span>";
+                output += "<span>" + data[i].data + "</span>";
+                output += "<span>" + data[i].luogo + "</span>";
+                output += "<span>" + data[i].utilizzo + "</span>";
+                output += "</div>";
+                output += "</div>";
+                container.innerHTML += output;
+            }
+        }
+
+
+        //CATEGORIA STANDARD PAGINA
+        window.onload = function() {
+            document.getElementById('categoriaButton').classList.add('active');
+            changeFilter('categoria');
+        };
+
+
+    </script>
+
+    <footer>
+        <div class="footer-text">
+            Andrea Gizzi<br>
+            <br>
+            CV428.01<br>
+            Interaction design SP23/24
+        </div>
+    </footer>
+
+</body>
+</html>

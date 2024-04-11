@@ -1,0 +1,1003 @@
+
+	[
+		{
+		 "file": "01",
+		 "font": "Adobe Garamond Pro",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Robert Slimbach",
+		 "data": 1988,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file":"02",
+		 "font":"Aktiv Grotesk",
+		 "categoria":"Sans-serif",
+		 "sottocategoria":"Grotesque",
+		 "autore": "Bruno Maag e Ron Carpenter",
+		 "data": 2010,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "03",
+		 "font": "Akzidenz-Grotesk",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Berthold Type Foundry",
+		 "data": 1896,
+		 "luogo": "Germania",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "04",
+		 "font": "American Typewriter",
+		 "categoria": "Serif",
+		 "sottocategoria": "Egiziano",
+		 "autore": "Joel Kaden e Tony Stan",
+		 "data": 1974,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "05",
+		 "font": "Antiqua",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Monotype Imaging designers",
+		 "data": 1990,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "06",
+		 "font": "Arial",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Robin Nicholas e Patricia Saunders",
+		 "data": 1982,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "07",
+		 "font": "Avant Garde",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Herb Lubalin e Tom Carnase",
+		 "data": 1970,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "08",
+		 "font": "Avenir",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Adrian Frutiger",
+		 "data": 1988,
+		 "luogo": "Svizzera",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "09",
+		 "font": "Baskerville",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "John Baskerville",
+		 "data": 1757,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "10",
+		 "font": "Bauer Bodoni",
+		 "categoria": "Serif",
+		 "sottocategoria": "Didone",
+		 "autore": "Heinrich Jost",
+		 "data": 1926,
+		 "luogo": "Germania",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "11",
+		 "font": "Bebas neue",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Ryoichi Tsunekawa",
+		 "data": 2010,
+		 "luogo": "Giappone",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "12",
+		 "font": "Bell MT",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Richard Austin",
+		 "data": 1788,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "13",
+		 "font": "Bembo",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Francesco Griffo",
+		 "data": 1495,
+		 "luogo": "Italia",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "14",
+		 "font": "Bickham Script",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "Richard Lipton",
+		 "data": 1997,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "15",
+		 "font": "Bodoni",
+		 "categoria": "Serif",
+		 "sottocategoria": "Didone",
+		 "autore": "Giambattista Bodoni",
+		 "data": 1798,
+		 "luogo": "Italia",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "16",
+		 "font": "Bookman",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Alexander Phemister",
+		 "data": 1860,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "17",
+		 "font": "Brush Script",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "Robert Edward Smith",
+		 "data": 1942,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "18",
+		 "font": "Calibri",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Lucas de Groot",
+		 "data": 2004,
+		 "luogo": "Paesi Bassi",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "19",
+		 "font": "Calisto MT",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Ron Carpenter",
+		 "data": 1992,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "20",
+		 "font": "Cambria",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Jelle Bosma",
+		 "data": 2004,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "21",
+		 "font": "Candara",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "Gary Munch",
+		 "data": 2004,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "22",
+		 "font": "Caslon",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "William Caslon",
+		 "data": 1722,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "23",
+		 "font": "Century Gothic",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Sol Hess",
+		 "data": 1991,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "24",
+		 "font": "Century Schoolbook",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Morris Fuller Benton",
+		 "data": 1919,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "25",
+		 "font": "Clarendon",
+		 "categoria": "Serif",
+		 "sottocategoria": "Egiziani",
+		 "autore": "Robert Besley",
+		 "data": 1845,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "26",
+		 "font": "Constantia",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "John Hudson",
+		 "data": 2006,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "27",
+		 "font": "Cooper",
+		 "categoria": "Serif",
+		 "sottocategoria": "Egiziani",
+		 "autore": "Oswald Bruce Cooper",
+		 "data": 1921,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "28",
+		 "font": "Copperplate",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "Frederic William Goudy",
+		 "data": 1901,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "29",
+		 "font": "Corbel",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "Jeremy Tankard",
+		 "data": 2005,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Segnaletica"
+		},
+		{
+		 "file": "30",
+		 "font": "Didot",
+		 "categoria": "Serif",
+		 "sottocategoria": "Didone",
+		 "autore": "Firmin Didot",
+		 "data": 1784,
+		 "luogo": "Francia",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "31",
+		 "font": "DIN",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Institut für Normung",
+		 "data": 1931,
+		 "luogo": "Germania",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "32",
+		 "font": "Edwardian Script",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "Edward Benguiat",
+		 "data": 1994,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "33",
+		 "font": "Elephant",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Matthew Carter",
+		 "data": 1992,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "34",
+		 "font": "Eurostile",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Aldo Novarese",
+		 "data": 1962,
+		 "luogo": "Italia",
+		 "utilizzo": "Segnaletica"
+		},
+		{
+		 "file": "35",
+		 "font": "Folio",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Konrad Friedrich Bauer e Walter Baum",
+		 "data": 1957,
+		 "luogo": "Germania",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "36",
+		 "font": "Freight Sans",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Joshua Darden",
+		 "data": 2005,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "37",
+		 "font": "Frutiger",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "Adrian Frutiger",
+		 "data": 1975,
+		 "luogo": "Svizzera",
+		 "utilizzo": "Segnaletica"
+		},
+		{
+		 "file": "38",
+		 "font": "Futura",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Paul Renner",
+		 "data": 1927,
+		 "luogo": "Germania",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "39",
+		 "font": "Garamond",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Claude Garamond",
+		 "data": 1530,
+		 "luogo": "Francia",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "40",
+		 "font": "Georgia",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Matthew Carter",
+		 "data": 1993,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "41",
+		 "font": "Gill Sans",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "Eric Gill",
+		 "data": 1928,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "42",
+		 "font": "Gotham",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Tobias Frere-Jones",
+		 "data": 2000,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "43",
+		 "font": "Goudy Old Style",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Frederic W. Goudy",
+		 "data": 1915,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "44",
+		 "font": "Great Vibes",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "TypeSETit",
+		 "data": 2012,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "45",
+		 "font": "Helvetica",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Max Miedinger e Eduard Hoffmann",
+		 "data": 1957,
+		 "luogo": "Svizzera",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "46",
+		 "font": "IBM Plex Sans",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "IBM",
+		 "data": 2017,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "47",
+		 "font": "IBM Plex Serif",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "IBM",
+		 "data": 2017,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "48",
+		 "font": "Impact",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Geoffrey Lee",
+		 "data": 1965,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "49",
+		 "font": "Dolly",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Underware",
+		 "data": 2001,
+		 "luogo": "Paesi Bassi",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "50",
+		 "font": "ITC Bookman",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "International Typeface Corporation",
+		 "data": 1992,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "51",
+		 "font": "ITC Century",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Tony Stan e Carol Twombly",
+		 "data": 1975,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Segnaletica"
+		},
+		{
+		 "file": "52",
+		 "font": "ITC Franklin Gothic",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Morris Fuller Benton",
+		 "data": 1902,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Segnaletica"
+		},
+		{
+		 "file": "53",
+		 "font": "ITC Garamond Std",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Tony Stan, Rosmarie Tissi, André Gürtler",
+		 "data": 1975,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "54",
+		 "font": "ITC Kabel Std",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Rudolf Koch",
+		 "data": 1976,
+		 "luogo": "Germania",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "55",
+		 "font": "ITC Lubalin Graph",
+		 "categoria": "Serif",
+		 "sottocategoria": "Egiziani",
+		 "autore": "Herb Lubalin",
+		 "data": 1974,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Segnaletica"
+		},
+		{
+		 "file": "56",
+		 "font": "ITC Zapf Chancery",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "Hermann Zapf",
+		 "data": 1979,
+		 "luogo": "Germania",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "57",
+		 "font": "Jenson",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Nicolas Jenson",
+		 "data": 1470,
+		 "luogo": "Italia",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "58",
+		 "font": "Kabel",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Rudolf Koch",
+		 "data": 1927,
+		 "luogo": "Germania",
+		 "utilizzo": "Segnaletica"
+		},
+		{
+		 "file": "59",
+		 "font": "Lato",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "Łukasz Dziedzic",
+		 "data": 2010,
+		 "luogo": "Polonia",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "60",
+		 "font": "Lexicon",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Bram de Does",
+		 "data": 1992,
+		 "luogo": "Paesi Bassi",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "61",
+		 "font": "Linotype Didot",
+		 "categoria": "Serif",
+		 "sottocategoria": "Didone",
+		 "autore": "Firmin Didot",
+		 "data": 1784,
+		 "luogo": "Francia",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "62",
+		 "font": "Lobster",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "Pablo Impallari",
+		 "data": 2010,
+		 "luogo": "Argentina",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "63",
+		 "font": "Lucida",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Charles Bigelow e Kris Holmes",
+		 "data": 1985,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "64",
+		 "font": "Lucida Calligraphy",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "Charles Bigelow e Kris Holmes",
+		 "data": 1989,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "65",
+		 "font": "Memphis LT",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Rudolf Wolf",
+		 "data": 1929,
+		 "luogo": "Germania",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "66",
+		 "font": "Merriweather",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Eben Sorkin",
+		 "data": 2010,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "67",
+		 "font": "Minion",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Robert Slimbach",
+		 "data": 1990,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "68",
+		 "font": "Montserrat",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Julieta Ulanovsky",
+		 "data": 2010,
+		 "luogo": "Argentina",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "69",
+		 "font": "Mrs Eaves",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Zuzana Licko",
+		 "data": 1996,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "70",
+		 "font": "Myriad",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "Robert Slimbach e Carol Twombly",
+		 "data": 1992,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "71",
+		 "font": "Neo Sans",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Sebastian Lester",
+		 "data": 2004,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "72",
+		 "font": "Neue Haas Grotesk",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Max Miedinger e Eduard Hoffmann",
+		 "data": 1957,
+		 "luogo": "Svizzera",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "73",
+		 "font": "Neutraface",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Christian Schwartz",
+		 "data": 2002,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "74",
+		 "font": "News Gothic Std",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Morris Fuller Benton",
+		 "data": 1908,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "75",
+		 "font": "Open sans ",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "Steve Matteson",
+		 "data": 2011,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "76",
+		 "font": "Optima",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "Hermann Zapf",
+		 "data": 1958,
+		 "luogo": "Germania",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "77",
+		 "font": "Palatino",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Hermann Zapf",
+		 "data": 1948,
+		 "luogo": "Germania",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "78",
+		 "font": "Perpetua",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Eric Gill",
+		 "data": 1925,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "79",
+		 "font": "Poppins",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Jonny Pinhorn e Ninad Kale",
+		 "data": 2014,
+		 "luogo": "India",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "80",
+		 "font": "Proxima Nova",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Mark Simonson",
+		 "data": 2005,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "81",
+		 "font": "Raleway",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Matt McInerney",
+		 "data": 2012,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "82",
+		 "font": "Roboto",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Christian Robertson",
+		 "data": 2011,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "83",
+		 "font": "Rockwell",
+		 "categoria": "Serif",
+		 "sottocategoria": "Egiziani",
+		 "autore": "Frank Hinman Pierpont",
+		 "data": 1934,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "84",
+		 "font": "Rotis",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "Otl Aicher",
+		 "data": 1988,
+		 "luogo": "Germania",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "85",
+		 "font": "Sabon",
+		 "categoria": "Serif",
+		 "sottocategoria": "Old Style",
+		 "autore": "Jan Tschichold",
+		 "data": 1967,
+		 "luogo": "Germania",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "86",
+		 "font": "Savoye",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "Alan Meeks",
+		 "data": 1994,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "87",
+		 "font": "Snell Roundhand",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "Matthew Carter",
+		 "data": 1966,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "88",
+		 "font": "Suisse Int'l",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Ian Party",
+		 "data": 2011,
+		 "luogo": "Svizzera",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "89",
+		 "font": "Swiss 721",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Max Miedinger ed Eduard Hoffmann",
+		 "data": 1982,
+		 "luogo": "Svizzera",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "90",
+		 "font": "Tahoma",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Matthew Carter",
+		 "data": 1994,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "91",
+		 "font": "Tern",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Humanist",
+		 "autore": "Jeremy Tankard",
+		 "data": 2008,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Segnaletica"
+		},
+		{
+		 "file": "92",
+		 "font": "Times New Roman",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Stanley Morison",
+		 "data": 1931,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "93",
+		 "font": "Trade Gothic",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Jackson Burke",
+		 "data": 1948,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "94",
+		 "font": "Trajan",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Carol Twombly",
+		 "data": 1989,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Branding"
+		},
+		{
+		 "file": "95",
+		 "font": "Trebuchet",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Geometrico",
+		 "autore": "Vincent Connare",
+		 "data": 1996,
+		 "luogo": "Regno Unito",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "96",
+		 "font": "Tw Cen MT",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Sol Hess",
+		 "data": 1930,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Segnaletica"
+		},
+		{
+		 "file": "97",
+		 "font": "Univers",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Adrian Frutiger",
+		 "data": 1957,
+		 "luogo": "Svizzera",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "98",
+		 "font": "Verdana",
+		 "categoria": "Sans-serif",
+		 "sottocategoria": "Grotesque",
+		 "autore": "Matthew Carter",
+		 "data": 1996,
+		 "luogo": "Stati Uniti",
+		 "utilizzo": "Digitale"
+		},
+		{
+		 "file": "99",
+		 "font": "Walbaum",
+		 "categoria": "Serif",
+		 "sottocategoria": "Transizionale",
+		 "autore": "Erich Walbaum",
+		 "data": 1800,
+		 "luogo": "Germania",
+		 "utilizzo": "Editoriale"
+		},
+		{
+		 "file": "100",
+		 "font": "Zapfino",
+		 "categoria": "Script",
+		 "sottocategoria": "",
+		 "autore": "Hermann Zapf",
+		 "data": 1998,
+		 "luogo": "Germania",
+		 "utilizzo": "Branding"
+		}
+	   ]

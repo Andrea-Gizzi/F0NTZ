@@ -1,0 +1,124 @@
+<!-- METADATI -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z</title>
+    <link rel="stylesheet" href="../metadati/style/style.css">
+
+</head>
+<body>
+    <header>
+
+        <div class="header-text">
+            F0NTZ
+        </div>
+        
+        <div id="buttons">
+
+            <button id="categoriaButton" onclick="changeFilter('categoria')">Categoria</button>
+            <button id="luogoButton" onclick="changeFilter('luogo')">Luogo</button>
+            <button id="utilizzoButton" onclick="changeFilter('utilizzo')">Utilizzo</button>
+            <button id="fileButton" onclick="changeFilter('file')">A-Z</button>
+            <button onclick="window.location.href='../index.html'">HOME</button>
+
+        </div>
+    </header>
+    <main></main>
+    <script>
+
+        let categoria = 'categoria';
+
+        function changeFilter(newFilter) {
+            categoria = newFilter;
+            run();
+
+            //classe disattiva
+            document.querySelectorAll('#buttons button').forEach(button => {
+                button.classList.remove('active');
+            });
+
+            //classe attiva
+            document.getElementById(newFilter + 'Button').classList.add('active');
+        }
+
+
+        async function run() {
+            let data;
+
+            await fetch("../assets/data/100_font.json")
+                .then(response => response.json())
+                .then(json => {
+                    data = json;
+                });
+            
+
+            //FILTRI
+            if (categoria === 'categoria') {
+                data.sort(function(elementoA, elementoB) {
+                    if (elementoA.categoria < elementoB.categoria) return -1;
+                    if (elementoA.categoria > elementoB.categoria) return 1;
+                    if (elementoA.sottocategoria < elementoB.sottocategoria) return -1;
+                    if (elementoA.sottocategoria > elementoB.sottocategoria) return 1;
+                    return 0;
+                });
+            } 
+            
+            if (categoria === 'luogo') {
+                data.sort(function(elementoA, elementoB) {
+                    if (elementoA.luogo < elementoB.luogo) return -1;
+                    if (elementoA.luogo > elementoB.luogo) return 1;
+                    if (elementoA.font < elementoB.font) return -1;
+                    if (elementoA.font > elementoB.font) return 1;
+                    return 0;
+                });
+            }
+            
+            if (categoria === 'utilizzo') {
+                data.sort(function(elementoA, elementoB) {
+                    if (elementoA.utilizzo < elementoB.utilizzo) return -1;
+                    if (elementoA.utilizzo > elementoB.utilizzo) return 1;
+                    if (elementoA.font < elementoB.font) return -1;
+                    if (elementoA.font > elementoB.font) return 1;
+                    return 0;
+                });
+            }
+        
+
+            //METADATI
+            let output = "";
+            for (let i = 0; i < data.length; i++) {
+                output += "<div>" + data[i].font + "</div>"
+                output += "<div>" + data[i].categoria + "</div>"
+                output += "<div>" + data[i].sottocategoria + "</div>"
+                output += "<div>" + data[i].autore + "</div>"
+                output += "<div>" + data[i].data + "</div>"
+                output += "<div>" + data[i].luogo + "</div>"
+                output += "<div>" + data[i].utilizzo + "</div>"
+            }
+            document.querySelector('main').innerHTML = output;
+        }
+
+
+        //CATEGORIA STANDARD
+        window.onload = function() {
+            document.getElementById('categoriaButton').classList.add('active');
+            changeFilter('categoria');
+        };
+
+    </script>
+
+    <footer>
+        <div class="footer-text">
+            Andrea Gizzi<br>
+            <br>
+            CV428.01<br>
+            Interaction design SP23/24
+        </div>
+    </footer>
+
+</body>
+</html>
