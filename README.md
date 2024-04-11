@@ -2,11 +2,11 @@ SUPSI 2022-23
 Corso d’interaction design, CV427.01  
 Docenti: A. Gysin, G. Profeta  
 
-Elaborato 1: Marionetta digitale  
+Elaborato 1: XS
 
-# Titolo progetto
+# F0NTZ
 Autore: Gizzi Andrea  
-[MediaPipe demo-ES6](https://ixd-supsi.github.io/2023/esempi/mp_hands/es6/1_landmarks)
+[MediaPipe demo-ES6](https://andrea-gizzi.github.io/F0NTZ/)
 
 
 ## Introduzione e tema
