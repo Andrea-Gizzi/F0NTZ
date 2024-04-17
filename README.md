@@ -32,7 +32,8 @@ L'unica pagina all'interno del sito che presenta una struttura differente è que
 ## Tecnologia usata
 L'intero sito è strutturato sulla rappresentazione dei metadati in varie categorie permettendo all'utente di decidere quale categoria vuole vedere tramite i bottoni che fungono da filtro. La struttura delle categorie nella home è stata scelta per facilitare il confronto tra i font permettendo all'utente maggiore comprensione delle minime differenze, permettendo cosi la funzione corretta dei filtri.  
 ```JavaScript
-    //CATEGORIE
+//-----------------------------------------------------------------------------------------------------------------------------------
+//Codice di generazione delle categorie
     let categorie = [];
     for (let i = 0; i < data.length; i++) {
         if (!categorie.includes(data[i][categoria])) {
@@ -53,55 +54,54 @@ L'intero sito è strutturato sulla rappresentazione dei metadati in varie catego
 ```
 Diverso invece la pagina d'informazione scritta dei metadati dove non è presente un array ma bensi un semplice struttura di informazioni orizontale suddivisa in colonne.  
 ```Css
-            /*MAIN*/
-			main {
-				margin-top: 200px;
-				margin-left: auto;
-				margin-right: auto;
-				max-width: 90%;
-				display: grid;
-				grid-template-columns: 1fr 0.4fr 0.4fr 1.4fr 0.2fr 0.4fr 1fr;
-				column-gap: 1em;
-				font-size: 1em;
-				line-height: 1.8;
-			}
-
-			main div {
-				padding-top: 6px;
-				padding-bottom: 14px;
-				border-top: 1px solid rgb(50, 50, 50);
-			}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*Codice di suddivisione in colonne del main*/
+	main {
+		margin-top: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 90%;
+		display: grid;
+		grid-template-columns: 1fr 0.4fr 0.4fr 1.4fr 0.2fr 0.4fr 1fr;
+		column-gap: 1em;
+		font-size: 1em;
+		line-height: 1.8;
+	}
 ```
 
 Come detto precedentemente nonostante la struttura diversa delle categoria sia diversa tra le due pagine i bottoni fungono da filtri in entrambe le pagine sailitando cosi la navigazione dell'utente e la sua ricerca di informazioni.  
 ```html
-        <header>
-			<div id="buttons">
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+<!--Sezione dei pulsanti di navigazione-->
+	<header>
+		<div id="buttons">
 
-				<button id="categoriaButton" onclick="changeFilter('categoria')">Categoria</button>
-				<button id="luogoButton" onclick="changeFilter('luogo')">Luogo</button>
-				<button id="utilizzoButton" onclick="changeFilter('utilizzo')">Utilizzo</button>
-				<button onclick="window.location.href='./metadati/index.html'">METADATI</button>
+			<button id="categoriaButton" onclick="changeFilter('categoria')">Categoria</button>
+			<button id="luogoButton" onclick="changeFilter('luogo')">Luogo</button>
+			<button id="utilizzoButton" onclick="changeFilter('utilizzo')">Utilizzo</button>
+			<button onclick="window.location.href='./metadati/index.html'">METADATI</button>
 
-			</div>
-    	</header>
+		</div>
+    </header>
 ```  
 ```JavaScript
-        let categoria = 'categoria';
+//-----------------------------------------------------------------------------------------------------------------------------------
+//Funzione per cambiare filtro
+    let categoria = 'categoria';
 
-        function changeFilter(newFilter) {
-            categoria = newFilter;
+    function changeFilter(newFilter) {
+        categoria = newFilter;
 
-            run();
+        run();
 
-            //classe disattiva
-            document.querySelectorAll('#buttons button').forEach(button => {
-                button.classList.remove('active');
-            });
+        //classe disattiva
+        document.querySelectorAll('#buttons button').forEach(button => {
+            button.classList.remove('active');
+        });
 
-            //classe attiva
-            document.getElementById(newFilter + 'Button').classList.add('active');
-        }
+        //classe attiva
+        document.getElementById(newFilter + 'Button').classList.add('active');
+    }
 ```
 
 
