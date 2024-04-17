@@ -32,7 +32,7 @@ L'unica pagina all'interno del sito che presenta una struttura differente è que
 ## Tecnologia usata
 L'intero sito è strutturato sulla rappresentazione dei metadati in varie categorie permettendo all'utente di decidere quale categoria vuole vedere tramite i bottoni che fungono da filtro. La struttura delle categorie nella home è stata scelta per facilitare il confronto tra i font permettendo all'utente maggiore comprensione delle minime differenze, permettendo cosi la funzione corretta dei filtri.  
 ```JavaScript
-//-----------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------
 //Codice di generazione delle categorie
     let categorie = [];
     for (let i = 0; i < data.length; i++) {
@@ -54,7 +54,7 @@ L'intero sito è strutturato sulla rappresentazione dei metadati in varie catego
 ```
 Diverso invece la pagina d'informazione scritta dei metadati dove non è presente un array ma bensi un semplice struttura di informazioni orizontale suddivisa in colonne.  
 ```Css
-/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
 /*Codice di suddivisione in colonne del main*/
 	main {
 		margin-top: 200px;
@@ -71,7 +71,8 @@ Diverso invece la pagina d'informazione scritta dei metadati dove non è present
 
 Come detto precedentemente nonostante la struttura diversa delle categoria sia diversa tra le due pagine i bottoni fungono da filtri in entrambe le pagine sailitando cosi la navigazione dell'utente e la sua ricerca di informazioni.  
 ```html
-<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- ---------------------------------------------------------------------- -->
 <!--Sezione dei pulsanti di navigazione-->
 	<header>
 		<div id="buttons">
@@ -85,7 +86,7 @@ Come detto precedentemente nonostante la struttura diversa delle categoria sia d
     </header>
 ```  
 ```JavaScript
-//-----------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------
 //Funzione per cambiare filtro
     let categoria = 'categoria';
 
