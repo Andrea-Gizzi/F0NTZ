@@ -14,9 +14,11 @@ La consegna consisteva nella reallizzazionedi un sistema di interfaccia web inte
 
 https://github.com/ixd-supsi/2024/raw/main/templates/template_README/doc/sdf_test.mp4
 
+
 ## Riferimenti progettuali
 Nel progetto, non mi sono orientato su un modello specifico come riferimento per l'interfaccia; piuttosto, ho dedicato tempo a riflettere su come inserire i diversi contenuti in modo da migliorare l'usabilità e la comprensione.
 Il mio obiettivo principale è stato selezionare un approccio visivo che valorizzasse ogni singolo contenuto in base alla ricerca in corso, rendendolo funzionale e facilmente leggibile.
+
 
 
 ## Design dell’interfraccia e modalià di interazione
@@ -51,7 +53,7 @@ L'intero sito è strutturato sulla rappresentazione dei metadati in varie catego
     }
 
     document.querySelector('main').innerHTML = cats;
-```
+```  
 Diverso invece la pagina d'informazione scritta dei metadati dove non è presente un array ma bensi un semplice struttura di informazioni orizontale suddivisa in colonne.  
 ```Css
 /*-------------------------------------------------------------------------*/
@@ -67,7 +69,7 @@ Diverso invece la pagina d'informazione scritta dei metadati dove non è present
 		font-size: 1em;
 		line-height: 1.8;
 	}
-```
+```  
 
 Come detto precedentemente nonostante la struttura diversa delle categoria sia diversa tra le due pagine i bottoni fungono da filtri in entrambe le pagine sailitando cosi la navigazione dell'utente e la sua ricerca di informazioni.  
 ```html
@@ -103,11 +105,11 @@ Come detto precedentemente nonostante la struttura diversa delle categoria sia d
         //classe attiva
         document.getElementById(newFilter + 'Button').classList.add('active');
     }
-```
+```  
 
 
 ## Target e contesto d’uso
 L'artefatto digitale è concepito per un pubblico giovane e dinamico, principalmente attivo nel campo della grafica. Si rivolge a coloro che devono selezionare un carattere tipografico adatto a specifici contesti di utilizzo, o che sono interessati a informarsi ed esplorare il vasto archivio dei metadati di ogni font.
-Il contesto d'utilizzo dell'archivio è diversificato e variegato. Può essere sfruttato a fini educativi e accademici, per uso personale o in ambito professionale, come ad esempio in studi di design grafico o per progetti indipendenti.
+Il contesto d'utilizzo dell'archivio è diversificato e variegato. Può essere sfruttato a fini educativi e accademici, per uso personale o in ambito professionale, come ad esempio in studi di design grafico o per progetti indipendenti.  
 
-[<img src="img_README/materioteca.jpg" width="300" alt="">]
+<img src="img_README/materioteca.jpg" width="600" alt="">
